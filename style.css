@@ -1,21 +1,16 @@
-html {
-    height: 100%;
+.intro {
+    font: font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
 }
-body {
+
+.statement {
+    font: font-family: 'Playfair Display', serif;
+    font-size: 2em;
+}
+
+.container {
     display: grid;
-    grid-template: 60% 40% / 50% 50%;
-    height: 100%;
-    margin: 0;
-}
-#div-1 {
-    background-color: #ffff99;
-}
-#div-2 {
-    background-color: #ffcc99;
-}
-#div-3 {
-    background-color: #ff8080;
-}
-#div-4 {
-    background-color: #cc3333;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-rows: 100px;
+    grid-gap: 8px;
 }
