@@ -4,27 +4,95 @@ body {
 }
 
 .header {
-    font: 2em 'Montserrat Subrayada', sans-serif;
+    font: 3em 'Montserrat Subrayada', sans-serif;
     color: #474747;
     justify-content: center;
-    margin: 25px 50px;
+    margin: 25px 600px 10px 200px;
 }
 
 .statement {
-    font: 1.5em 'Montserrat', sans-serif;
+    font: 1em 'Montserrat', sans-serif;
     color: #474747;
-    margin: 25px 10px;
-    justify-content: center;
+    margin: 5px 500px 10px 200px;
+    justify-content: left;
 }
 
 .container {
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: 4fr 4fr 4fr;
-    grid-template-rows: 4fr 4fr 4fr;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
     grid-auto-flow: dense;
     align-self: center;
+    margin: 50px 200px;
 }
+
+.photo1:hover {
+    opacity: 0.25;
+    cursor: pointer;
+}
+
+.photo2:hover {
+    opacity: 0.25;
+    cursor: pointer;
+}
+
+.photo3:hover {
+    opacity: 0.25;
+    cursor: pointer;
+}
+
+.photo4:hover {
+    opacity: 0.25;
+    cursor: pointer;
+}
+
+.photo5:hover {
+    opacity: 0.25;
+    cursor: pointer;
+}
+
+.photo6:hover {
+    opacity: 0.25;
+    cursor: pointer;
+}
+
+.photo7:hover {
+    opacity: 0.25;
+    cursor: pointer;
+}
+
+.photo8:hover {
+    opacity: 0.25;
+    cursor: pointer;
+}
+
+.photo9:hover {
+    opacity: 0.25;
+    cursor: pointer;
+}
+
+.photo9:hover {
+    opacity: 0.25;
+    cursor: pointer;
+}
+
+.photo10:hover {
+    opacity: 0.25;
+    cursor: pointer;
+}
+
+.photo11:hover {
+    opacity: 0.25;
+    cursor: pointer;
+}
+
+.photo12:hover {
+    opacity: 0.25;
+    cursor: pointer;
+}
+/*add overlay to grid items*/
+/*add links to some grid items*/
 
 .container > div {
     display: flex;
@@ -40,6 +108,6 @@ body {
 }
 
 .footer {
-    font: 1em 'Montserrat', sans-serif;
+    font: .5em 'Montserrat', sans-serif;
     color: #474747;
 }
